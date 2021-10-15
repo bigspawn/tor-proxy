@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM ghcr.io/ghcri/golang:1.17
 
 COPY . /app
 WORKDIR /app
